@@ -1,0 +1,431 @@
+Here's the raw text content from your portfolio, with no HTML tags, no formatting changes, no edits — just the actual data as it appears in the file.
+
+---
+
+**Page Title:** Rishabh Pathak — MIS Executive
+
+**Meta Description:** Portfolio of Rishabh Pathak, an MIS Executive with 3+ years of experience in data operations, inventory reconciliation, and process automation using Excel, VBA, Power Query, and Python.
+
+---
+
+## Contact (Modal)
+- Get in Touch
+- Email: rshbpathak@gmail.com
+- Phone: +91 8178167874
+- LinkedIn: linkedin.com/in/rishabh-pathak-0b6759311
+
+## Nav
+RP Rishabh Pathak — Workflow / Tools / Skills / Experience — Contact Me
+
+---
+
+## SECTION 1 — HERO
+
+Open to MIS Executive · Operations Analyst · Junior BA roles
+
+**Headline:** Data operations automated. Inventory accuracy secured.
+
+**Subtext:** MIS Executive with 3+ years managing the complete data operations of a wholesale mobile phone business — from supplier file processing and delivery checks to inventory records, daily reporting, and payment confirmation. Built the systems. Run them every day.
+
+**Time tracker box:**
+- Daily data processing time — before and after automation
+- Before: 5 hours
+- After: 10 min
+- 97% reduction — through 37+ tools built across Excel, Google Workspace, and two custom desktop applications.
+
+**Stat tiles:**
+- 37+ — Automation Tools — Designed & deployed
+- ₹5–20 Cr — Inventory Volume — Reconciled monthly
+- 50–100 — Daily Data Files — Parsed automatically
+- 2+ Hours — Saved Daily — Manual effort eliminated
+
+---
+
+## SECTION 2 — DAILY OPERATIONS / WORKFLOW
+
+Daily operations
+**How I manage operations — every day**
+Every purchase batch goes through this exact workflow. I built every tool that runs inside it.
+
+**STEP 01 — Supplier File Arrives**
+Pricing reference per batch — rate, condition grade, model agreed
+
+**STEP 02 — Gmail Auto-Download**
+50–100 order files collected, sorted by warehouse, duplicates skipped
+
+**STEP 03 — Power Query Processing**
+All files merged, cleaned, summarised into one master workbook
+
+**STEP 04 — Payment Released**
+Payment confirmed and made based on agreed order and rate
+
+**STEP 05 — Receive Post-Payment Files**
+Invoice + stock detail files arrive from supplier after payment
+
+**STEP 06 — Reconcile & Record**
+Delivery vs payment checked; every device recorded in master database
+
+### Data Flow & Automation Pipeline (Operational Architecture)
+
+1. **Inputs** — Supplier lot files & 50-100 order emails on Gmail
+2. **Apps Script** — Auto-downloads, duplicates skipped, sorted by warehouse folders
+3. **Power Query & VBA** — Clean, map lot files, merge records, and build master sheet
+4. **Analytical Store** — DuckDB index of all stock. VBA direct database lookup bridge
+5. **3-Way Reconcile** — Compare delivered stock vs order rate contracts vs payments
+
+Note: Full 8-step breakdown → Mobile Hub detail page
+
+---
+
+## SECTION 3 — TOOLS BUILT
+
+Tools built
+**5 systems designed from scratch**
+None of these came off the shelf. Each was built because a real problem needed solving.
+
+### 1. Device Search App
+*AI-assisted · Python + Rust · Windows .exe*
+
+- Problem: Finding any device record meant opening multiple large Excel files manually — slow and error-prone as years of data accumulated
+- Solution: Python interface + high-speed Rust parsing engine: search across all years in under 2 seconds, from app or directly inside Excel via VBA
+
+Description: Windows desktop utility with a Python interface and Rust parsing engine. Searches thousands of device entries instantly. Also connects to Excel via VBA — every sales sheet verified against inventory without opening the app.
+
+Impact: Zero manual file searching
+
+### 2. Price Audit & Reconcile App
+*AI-assisted · Rust/React · Windows .exe*
+
+- Problem: No structured way to catch pricing errors, grade changes, or short deliveries before confirming payment
+- Solution: Three-in-one app checks deliveries vs orders, rate changes between lists, and file inconsistencies
+
+Description: Compares supplier deliveries against orders, tracks what changed between rate lists, and scans files for pricing inconsistencies — all before payment is confirmed.
+
+Impact: Pricing errors caught before payment
+
+### 3. Gmail File Collector
+*Google Apps Script · Gmail API · Drive API*
+
+- Problem: 50–100 supplier attachments arrived daily and had to be downloaded and sorted folder-by-folder by hand — 30+ wasted minutes every day
+- Solution: Script runs on demand — downloads, categorises by type, creates warehouse subfolders, skips duplicates. No manual steps
+
+Description: Automated file collection processing a full day's supplier email attachments in seconds — sorted, named correctly, saved to the right location every time.
+
+Impact: Replaced 30+ min of daily manual work
+
+### 4. Excel Automation Suite
+*Advanced VBA · 24 Modules · Custom Ribbon UI*
+
+- Problem: Daily batch processing, reporting, invoicing, and file sharing were all done manually — slow, inconsistent, two people's workload
+- Solution: 24-tool Excel application with custom ribbon — handles the entire daily workflow, one click per task, same result every time
+
+Description: Complete Excel application from 24 VBA modules — stock formatting, pivot reports, invoice generation, Telegram file sharing, HTML exports, and an Excel-to-database integration bridge supporting 2,500-record batch inserts.
+
+Impact: Replaced 2 people's manual work
+
+### 5. Rate Comparison Tool
+*AI-assisted · Python*
+
+- Problem: When suppliers sent updated price lists, there was no quick way to see what changed — rate shifts across hundreds of combinations were easy to miss
+- Solution: Side-by-side comparison shows every change per model and condition grade — immediately, with export to Excel
+
+Description: Compares old and new supplier price lists and shows exactly what changed per model and condition grade — what it was, what it is, what's new, what was removed.
+
+Impact: Rate changes spotted instantly
+
+---
+
+## SECTION 4 — SKILLS
+
+Skills
+**What I work with**
+Tools and technologies I work with. AI-assisted tools are labelled honestly.
+
+**📊 Data & Reporting**
+Advanced Excel, Pivot Tables & Slicers, Power Query, MIS Reports, Data Validation, Inventory Tracking, Dashboard Reporting
+
+**⚡ Automation**
+VBA Macros (24 modules), Google Apps Script, Python (AI), SQL (AI), AI Tool Dev, Workflow Automation, Report Gen
+
+**🧾 Accounting & Compliance**
+Tally Prime, GST Filing, E-way Bills, E-Invoicing, Vendor Payments (100+), 3-Way Reconciliation
+
+**🛠️ Tools & Platforms**
+MS Office Suite, Google Workspace, Gmail API, Google Drive API, Telegram API (via Excel)
+
+---
+
+## SECTION 5 — EXPERIENCE
+
+Experience
+**Where I've worked**
+3+ years in data operations and automation, 9 months in accounting — both sides of the business.
+
+### MIS Executive
+**Mobile Hub · Udyog Nagar, New Delhi**
+Oct 2022 – Present
+
+- Sole data and automation person on a 4-person team — independently manage supplier file processing, stock tracking, daily reporting, and payment confirmation.
+- Reduced the main daily data workflow from 5 hours to under 10 minutes through Power Query automation, VBA tools, and the Gmail file collection system.
+- Maintain a unit-level master database of every device purchased — brand, model, condition, price, serial number, and warehouse location — across 2 warehouses in Noida and Bilaspur.
+- Run a 3-way reconciliation on every incoming batch across purchase records, delivery data, and live inventory on ₹5–20Cr of monthly stock.
+
+### Account Assistant
+**Sahil Miglani & Associates · Karampura, Delhi**
+Jan 2022 – Sep 2022
+
+- Maintained daily accounting records in Tally Prime for 100+ vendor accounts — no filing backlogs throughout the entire tenure.
+- Filed monthly and quarterly GST returns on schedule, generated E-way Bills and E-Invoices, coordinated vendor payments — all audit-ready.
+
+---
+
+## SECTION 6 — EDUCATION & CERTIFICATION
+
+Education & Certification
+**Academic background**
+
+- 🎓 Bachelor of Commerce (B.Com) — Delhi University — School of Open Learning
+- 🎓 12th & 10th — CBSE — C.R. Saini Public Senior Secondary School, Delhi
+- 🏆 Excel Skills Job Simulation — JPMorgan Chase & Co. — via Forage — Certified
+  - Link: https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase%20Corporate/XiuvjcwqWRqH9oy38_JPMorgan%20Chase%20&%20Co._mtC5Sop6nKkBrdRJf_1721737043450_completion_certificate.pdf
+
+---
+
+## FOOTER
+Rishabh Pathak · MIS Executive · New Delhi · rshbpathak@gmail.com · LinkedIn
+
+---
+
+## DETAIL PAGE — Device Search App (Tool 01 of 05)
+
+**Subtitle:** Windows desktop search utility with a Python interface and high-speed Rust parsing engine — searches multiple years of warehouse data in under 2 seconds.
+
+**❌ The Problem:**
+Purchase records were stored across multiple large Excel files — one per year, each with thousands of device entries. Finding a single device meant manually opening the right year's file, scrolling through sheets, and matching entries one by one. As data grew over years, this became noticeably slower. Urgent lookups during a sale or reconciliation wasted time every single day.
+
+**✅ The Solution:**
+A standalone Windows desktop utility with a Python interface and Rust parsing engine that loads all data into a local database and returns results in under 2 seconds. Also integrated into Excel via VBA: when a sales sheet is prepared, the macro queries the database for every device, confirms inventory existence, and flags any price mismatch in red — without opening the app manually.
+
+**What the App Does:**
+- Searches all years of purchase data simultaneously — results in under 2 seconds on any record count
+- Partial and exact matching across all fields: brand, model, condition, serial number, IMEI, warehouse location
+- Loads data into a local analytical database on first launch — searches run on the database, not Excel files directly
+- Auto-detects file changes every 30 seconds and refreshes automatically
+- Progressive loading — search available immediately while additional data still loads in the background
+- Runs in the system tray — always ready without keeping a window open
+- Export search results to Excel or CSV with one click
+
+**Excel-to-Database Integration (Unique):**
+- A purpose-built data integration layer connects Excel workbooks directly to the local analytical database engine
+- Supports batch insertion of 2,500 records at a time and multi-table SQL queries — reducing crashes and manual handling on high-volume files
+- When a sales sheet is prepared (e.g. up to 1,000 devices across 10 daily bills), the VBA macro queries the database for every device automatically
+- Confirms each device exists in inventory and that the sale price matches the purchase record
+- Flags price mismatches in red — directly inside the sales sheet before finalising
+- This is the post-payment confirmation step — verifying delivery matches what was paid
+
+**How It Was Built (AI-assisted):**
+- Python interface with a high-speed Rust parsing engine — built with AI assistance in VS Code
+- Uses a local analytical database (DuckDB) for fast queries on large datasets
+- Compiled to standalone Windows .exe via PyInstaller — no Python needed on any machine
+- Multi-threaded: interface stays responsive while data loads or refreshes
+- GUI built with CustomTkinter; SQLite for settings persistence between sessions
+
+---
+
+## DETAIL PAGE — Price Audit & Reconcile App (Tool 02 of 05)
+
+**Subtitle:** Desktop application with three built-in tools for stock reconciliation and price verification — built because manual comparison before payment was too slow and too unreliable.
+
+**❌ The Problem:**
+There was no structured way to confirm a supplier's delivery matched the original order in quantity, condition grade, and price before payment. Short deliveries, condition changes, and billing errors could only be caught through slow manual Excel comparison. Rate list updates were equally hard to evaluate — manually comparing two large files across hundreds of model-condition combinations was unreliable and time-consuming.
+
+**✅ The Solution:**
+A three-in-one desktop app: the Reconcile tool compares what was ordered against what arrived and flags every difference; the Ratecard Analyser shows exactly what changed between an old and new price list; the Audit tool scans a single file for internal pricing inconsistencies. All three run in seconds via drag-and-drop.
+
+**Tool 1 — Reconcile Files:**
+- Drag and drop delivery file and original order file — comparison runs immediately
+- Identifies: missing devices, quantity differences, condition grade changes, price discrepancies
+- Exports full report to Excel — summary sheet plus every flagged issue listed clearly
+- Smart column auto-detection — adapts to different file formats without manual mapping
+- Case-insensitive, normalised matching handles inconsistent naming in real supplier files
+
+**Tool 2 — Ratecard Analyser:**
+- Load old and new supplier price list files — changes identified automatically
+- Shows every change per model and condition grade: previous rate, new rate, exact difference
+- Flags newly added combinations and items removed from the list
+- Export comparison report to Excel for records and management review
+
+**Tool 3 — Single File Audit:**
+- Scans one file for internal inconsistencies — same model and condition with different prices
+- Catches supplier data entry errors before the file enters the workflow
+- Runs in seconds — used on every new file before accepting it
+
+**How It Was Built (AI-assisted):**
+- Rust (Tauri framework) backend, React + Vite + TailwindCSS frontend — AI-assisted
+- Compiles to native Windows .exe — fast, lightweight, no installation needed
+- SheetJS for Excel file reading; column mappings saved between sessions
+- Lazy loading and file preloading for smooth performance on large files
+
+---
+
+## DETAIL PAGE — Gmail File Collector (Tool 03 of 05)
+
+**Subtitle:** Automated script replacing 30+ minutes of daily manual file downloading — processes 50–100 supplier email attachments every day with zero manual steps.
+
+**❌ The Problem:**
+The business receives 50–100 supplier file attachments on Gmail every day — order files, invoice files, and stock detail files spread across dozens of email threads. Previously, someone had to open Gmail, manually download each attachment, decide which folder it belonged to, and move it there. This was 30+ minutes of daily work adding zero value and regularly leading to files saved in the wrong location or downloaded twice.
+
+**✅ The Solution:**
+A Google Apps Script that runs on demand. It scans Gmail for all emails with the designated label, downloads only Excel attachments, reads the email subject line to detect the warehouse code, creates the correct subfolder automatically, and saves each file in the right location — skipping anything already downloaded. A separate cleanup script removes processed files once used.
+
+**What It Does:**
+- Scans Gmail for all emails with the designated supplier label
+- Downloads only Excel file attachments — ignores PDFs, images, unrelated files
+- Sorts files into correct folder category based on file type
+- Reads email subject line to detect warehouse code — creates correct subfolder per warehouse
+- Skips any file already downloaded — no duplicates, no overwriting, ever
+- Built-in logging for every execution — full record of what was downloaded or skipped
+- Separate cleanup script removes processed files once used, keeping folders clean
+
+**Technical Approach:**
+- Written in Google Apps Script (JavaScript) — runs within Google Workspace, no server needed
+- Uses Gmail API and Google Drive API v3 to access email and save files
+- Set-based duplicate checking — fast and reliable across 100+ files per run
+- Folders created only when files exist — no empty folder clutter in Drive
+- Subject line parsing handles multiple warehouse code formats automatically
+
+---
+
+## DETAIL PAGE — Excel Automation Suite — 24 Modules (Tool 04 of 05)
+
+**Subtitle:** Custom Excel application built from 24 VBA modules with a purpose-built ribbon interface, including an Excel-to-database integration bridge for high-volume data processing.
+
+**❌ The Problem:**
+Every daily task — batch data entry, report formatting, invoice creation, file sharing, and payment verification — was done manually. Output was inconsistent, the process was slow and error-prone, and collectively this was the equivalent of two full-time people's daily workload. Large inventory files also caused crashes when opened directly in Excel due to volume.
+
+**✅ The Solution:**
+A 24-tool Excel application with a custom ribbon — every daily task handled with a single click. Batch processing, pivot reports, invoice generation, Telegram file sharing, HTML exports, and payment verification all in one place. An Excel-to-database integration layer handles high-volume files with batch inserts of 2,500 records, eliminating crashes and manual handling.
+
+**Data Pipeline & Batch Processing:**
+- Adds new batch data into master workbook automatically — no copy-paste
+- Sorts by condition grade, product title, batch number; applies consistent formatting
+- Separates data into individual batch sheets — one per purchase lot, automatically
+- Generates full summaries: condition breakdown, brand splits, quantity totals, amounts, hyperlinks to each batch
+- Transfers completed files to main storage with duplicate detection
+
+**Excel-to-Database Integration Bridge (Project):**
+- Connects Excel workbooks directly to a local analytical database engine for faster processing of high-volume inventory and transaction files
+- Supports batch insertion of 2,500 records at a time — handles large lot files without crashes
+- Supports multi-table SQL queries from inside Excel — enables complex lookups and reconciliation checks
+- Reduces manual handling significantly — data that previously required multiple steps now processes in one operation
+- Powers the payment verification step: VBA queries the database for every device in a sale bill before confirming
+
+**Export & Sharing:**
+- Saves selected sheets as standalone files — removes internal pricing data before saving
+- Splits a workbook into separate files per sheet in one step
+- Sends files directly to Telegram from inside Excel — Telegram API via HTTP
+- Exports any table to a fully interactive HTML file: sorting, filtering, pivot summary, dark mode
+- Smart filename generation: SheetName + batch count + date — automatic every time
+
+**Sales, Verification & Utilities:**
+- Creates sales scan sheets from inventory data with lookup formulas pre-applied
+- Generates customer sales invoices directly from inventory — zero manual entry at sale time
+- Handles up to 1,000 devices across 10 daily sales bills through automated scan and verify workflow
+- FastMode toggle: disables screen updating and auto-calculation for faster processing on large files
+- 20+ utility functions: delete sheets, freeze formulas, sort tabs, convert formulas to values, and more
+
+---
+
+## DETAIL PAGE — Rate Comparison Tool (Tool 05 of 05)
+
+**Subtitle:** Python-based tool comparing old and new supplier price lists and highlighting every change — built to prevent accepting updated rates without knowing what actually shifted.
+
+**❌ The Problem:**
+Suppliers periodically send updated price lists. Without a structured comparison, it was very difficult to know which rates changed, which combinations were added or removed, and whether new pricing was acceptable. Manually comparing two large Excel files row by row across hundreds of model-condition combinations was slow and unreliable. Rate changes were regularly missed, directly affecting purchase profitability.
+
+**✅ The Solution:**
+Load the old and new price list files — the comparison runs immediately. Every change shown per model and condition grade: previous rate, new rate, exact difference. Newly added combinations and removed items flagged separately. Full result exported to a clean Excel report. No rate change goes unnoticed before the next purchase cycle.
+
+**What It Does (AI-assisted):**
+- Load old and new price list files — comparison runs automatically, no manual setup
+- Shows every rate change per model and condition grade: old rate, new rate, exact difference
+- Highlights newly added model-condition combinations not in the old list
+- Flags any combinations removed from the new list
+- Exports a clean, formatted comparison report to Excel for records and management review
+- Built with AI assistance in VS Code, guided by the specific file formats used by the business
+
+**Additional Python Utility Tools Built (AI-assisted):**
+- Additional Python utility scripts: cross-file data validation, bulk file management by batch number, script launcher with monitoring, database export/sync tools
+- Handle specific reconciliation checks that would otherwise require manually comparing multiple large files
+- All built with AI assistance in VS Code, driven by clearly documented business requirements
+- Compiled to standalone executables where needed — no Python installation required on business machines
+
+---
+
+## DETAIL PAGE — Mobile Hub (Full Experience)
+
+**Title:** MIS Executive — Mobile Hub
+**Subtitle:** Oct 2022 – Present · Udyog Nagar, New Delhi · 3+ years · Sole data and automation person on a 4-person team
+
+**Business Context:**
+- Mobile Hub purchases second-hand mobile phones in bulk lots from liquidation platforms. Each lot contains between 93 and 1,000+ phones, condition-graded from best (S1) to lowest (S5).
+- Brands include Apple, Samsung, Google, OnePlus, Xiaomi, Motorola, and others. Monthly stock value ranges from ₹5 to ₹20 crore.
+- Stock is stored across 2 warehouses — Noida and Bilaspur. Every device is tracked by warehouse location in the master database.
+- Every purchase involves supplier pricing files, order confirmation, payment, post-payment file receipt, delivery verification, and inventory recording — all through systems I built.
+- I am the only person handling data and automation on the team. A separate accountant manages Tally and rechecks financial records independently.
+
+**Full Daily Workflow — 8 Steps:**
+
+1. **Receive Supplier Lot File** — A pricing reference file arrives for each purchase lot — contains product codes, brand, model, condition grade, base price, agreed pricing structure (flat rates, percentage discounts, or adjusted margins), and the final agreed rate per unit.
+
+2. **Gmail Auto-Download (50–100 Order Files)** — The Gmail automation script downloads all supplier order file attachments for the day — each file contains product codes, product title, brand, grade, base price, and final value. Sorted by file type and warehouse automatically. Duplicates skipped.
+
+3. **Rate Calculation & Power Query Processing** — Agreed pricing formulas (accommodating flat rates, percentage discounts, or adjusted margins) are applied to calculate the final net purchase rate per unit. Power Query then merges all order files, cleans the data, and produces a master workbook: one sheet per lot, a merged data sheet, and a summary showing total quantity, total amount, condition breakdown, and brand split. Example: one run covers 11 lots and 1,021 phones.
+
+4. **Payment Released** — Payment is confirmed and made to the supplier based on the agreed order rate and total. This happens before receiving the detailed invoice and stock files — the supplier sends those after payment is received on their end.
+
+5. **Receive Invoice and Stock Detail Files** — After payment is received by the supplier, they send invoice files (product code, price, tax breakdown, total per unit) and stock detail files (warehouse serial number, IMEI, brand, model, condition grade). These are auto-downloaded via the same Gmail script.
+
+6. **3-Way Stock Reconciliation** — Compare three data sources: what was originally ordered, what actually arrived, and what was charged. Short-delivered units, condition grade changes, and pricing differences all identified. Any discrepancy is documented and escalated for correction against the payment already made.
+
+7. **Update Master Yearly Database** — Every device from the batch is entered into the master database — IMEI, warehouse serial number, condition grade, purchase amount, warehouse location (Noida or Bilaspur), and batch reference. Single source of truth for all inventory across the business.
+
+8. **Post-Payment Delivery Confirmation** — A final check comparing the payment made against the confirmed delivery and invoice data. The Excel-to-database integration queries every device in the sales batch, confirms each unit is recorded correctly in inventory, and flags any discrepancy between what was paid and what was received. Tracked and resolved if any difference is found.
+
+**Reporting Deliverables:**
+- Daily stock summaries — quantity per batch, condition breakdown, brand split, total amount
+- Weekly, 15-day, and monthly batch performance reports covering sales volume and stock movement
+- Customer sales sheets listing every device sold: condition, amount, serial number, IMEI — auto-generated per sale
+- Batch payments, open balances, and customer receipts tracked for up to 1,000 devices across 10 daily sales bills
+- Management pivot tables: stock by condition, brand, warehouse, seller
+
+**Other Key Contributions:**
+- Wrote full business process documentation covering the entire data workflow — used as operational reference and context for AI-assisted tool development
+- Reduced stock selection time by 1 hour using Excel pivot tables, slicers, and cross-referenced formulas
+- Built scan sheets and sales invoices that auto-populate from inventory — zero manual entry at sale time
+- Caught multiple post-payment delivery discrepancies over time — traced each back to source, escalated, and got corrections confirmed against payment records
+- Created SOPs covering reconciliation logic, file naming rules, workflow steps, and data standards
+
+---
+
+## DETAIL PAGE — Sahil Miglani & Associates (Full Experience)
+
+**Title:** Account Assistant — Sahil Miglani & Associates
+**Subtitle:** Jan 2022 – Sep 2022 · Karampura, Delhi · Chartered Accountant Firm · 9 months
+
+**What I Did:**
+- Maintained complete daily accounting records in Tally Prime for 100+ vendor accounts — strict accuracy, zero filing backlogs throughout the entire 9-month tenure.
+- Filed monthly and quarterly GST returns on schedule. Standardised the filing preparation templates internally — reduced time spent on preparation each cycle.
+- Generated E-way Bills and E-Invoices in compliance with GST regulations for every applicable transaction — consistent, on-time compliance record throughout.
+- Coordinated and processed payments for 100+ vendors — tracked due dates, confirmed amounts against invoices, maintained complete documentation for every transaction.
+- Reconciled vendor payment records at month-end and kept all supporting documentation for full audit readiness across the book of accounts.
+- Prepared monthly financial summaries and management reports using Excel and Word.
+
+**Why This Role Matters in Context:**
+- This role built the accounting foundation that makes the MIS work at Mobile Hub more complete — understanding invoices, GST, and vendor payments on the accounting side directly informs how the data side is structured and verified.
+- Most MIS professionals have data skills or accounting knowledge — not both. Having both means understanding what the numbers represent, not just how to process them.
+- Directly relevant for roles involving financial reporting, reconciliation, operations management, or any business with active vendor relationships and compliance requirements.
+
+---
+
+That's every piece of text content in the file, untouched and unmodified. Let me know if you want this exported as a plain .txt or .docx file for easy reference, or if you want it broken into sections for resume/LinkedIn use.
