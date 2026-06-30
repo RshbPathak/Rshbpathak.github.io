@@ -1,3 +1,24 @@
+function initScrollReveal() {
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('v');
+        } else {
+          e.target.classList.remove('v');
+        }
+      });
+    }, { threshold: 0.05, rootMargin: '30px 0px 30px 0px' });
+    document.querySelectorAll('#pg-overview .fi, #pg-overview .fi-left, #pg-overview .fi-right').forEach(function(el) {
+      obs.observe(el);
+    });
+  } else {
+    document.querySelectorAll('#pg-overview .fi, #pg-overview .fi-left, #pg-overview .fi-right').forEach(function(el) {
+      el.classList.add('v');
+    });
+  }
+}
+
 function showPg(id) {
   var already = document.getElementById(id) && document.getElementById(id).classList.contains('active');
   document.querySelectorAll('.pg').forEach(function(p) { p.classList.remove('active'); });
@@ -6,9 +27,7 @@ function showPg(id) {
     t.classList.add('active');
     if (!already) window.scrollTo({ top: 0, behavior: 'instant' });
     if (id === 'pg-overview') {
-      document.querySelectorAll('#pg-overview .fi, #pg-overview .fi-left, #pg-overview .fi-right').forEach(function(el) {
-        el.classList.add('v');
-      });
+      initScrollReveal();
     }
   }
 }
@@ -64,28 +83,12 @@ setTimeout(function() {
   }
   if (a) {
     a.style.width = '3.4%';
-    a.style.minWidth = '48px';
+    a.style.minWidth = '76px';
     a.classList.add('animated');
   }
 }, 400);
 
-if ('IntersectionObserver' in window) {
-  var obs = new IntersectionObserver(function(entries) {
-    entries.forEach(function(e) {
-      if (e.isIntersecting) {
-        e.target.classList.add('v');
-        obs.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.07 });
-  document.querySelectorAll('#pg-overview .fi, #pg-overview .fi-left, #pg-overview .fi-right').forEach(function(el) {
-    obs.observe(el);
-  });
-} else {
-  document.querySelectorAll('#pg-overview .fi, #pg-overview .fi-left, #pg-overview .fi-right').forEach(function(el) {
-    el.classList.add('v');
-  });
-}
+initScrollReveal();
 
 // Scroll spy
 var sections = ['s-workflow', 's-tools', 's-skills', 's-exp'];
@@ -143,6 +146,35 @@ if (window.innerWidth > 768) {
       card.style.transform = '';
     });
   });
+}
+
+// 3D Parallax tilt specifically for the Hero Dashboard
+if (window.innerWidth > 768) {
+  var dash = document.querySelector('.hero-dash');
+  var rightSec = document.querySelector('.hero-right');
+  if (dash && rightSec) {
+    rightSec.addEventListener('mousemove', function(e) {
+      var rect = rightSec.getBoundingClientRect();
+      var x = e.clientX - rect.left;
+      var y = e.clientY - rect.top;
+      var xc = rect.width / 2;
+      var yc = rect.height / 2;
+      var dx = x - xc;
+      var dy = y - yc;
+      
+      // Gentle 4 degrees max tilt
+      var rx = -(dy / yc) * 4;
+      var ry = (dx / xc) * 4;
+      
+      dash.style.animation = 'none'; // Pause floating animation on hover
+      dash.style.transform = 'perspective(1000px) rotateX(' + rx + 'deg) rotateY(' + ry + 'deg) scale3d(1.01, 1.01, 1.01)';
+    });
+    
+    rightSec.addEventListener('mouseleave', function() {
+      dash.style.transform = '';
+      dash.style.animation = ''; // Resume CSS float automatically
+    });
+  }
 }
 
 function openResModal() { document.getElementById('resModal').classList.add('open'); }
