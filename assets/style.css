@@ -5,7 +5,7 @@
   --fd: 'Sora', sans-serif;
   --fb: 'Plus Jakarta Sans', sans-serif;
   --fm: 'JetBrains Mono', monospace;
-  --mw: 1140px;
+  --mw: 1280px;
 }
 
 [data-theme="dark"] {
@@ -667,7 +667,7 @@ nav {
 .wrap {
   max-width: var(--mw);
   margin: 0 auto;
-  padding: 0 28px;
+  padding: 0 32px;
 }
 
 section {
@@ -814,8 +814,8 @@ section {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+  gap: 36px;
   align-items: center;
 }
 
@@ -1623,8 +1623,8 @@ section {
 /* TOOLS & TECH TAGS */
 .tgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .tc {
@@ -1865,14 +1865,31 @@ section {
 
 .edate {
   font-family: var(--fm);
-  font-size: .66rem;
-  color: var(--tt);
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--ts);
   background: var(--tg);
   border: 1px solid var(--bd);
   padding: 4px 10px;
   border-radius: 6px;
   white-space: nowrap;
   flex-shrink: 0;
+  letter-spacing: .02em;
+}
+
+/* Active / current role — orange accent */
+.edate-active {
+  font-family: var(--fm);
+  font-size: .68rem;
+  font-weight: 700;
+  color: var(--a);
+  background: rgba(249, 115, 22, 0.08);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  padding: 4px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: .02em;
 }
 
 .ebullets {
@@ -2722,3 +2739,57 @@ footer {
 #mobile-hub-workflow {
   scroll-margin-top: 90px;
 }
+
+/* PROJECT SCREENSHOT PREVIEW */
+.project-shot {
+  margin: 10px 0 16px;
+  max-width: 460px;
+  width: 100%;
+}
+
+.project-shot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--bd);
+  cursor: pointer;
+  transition: transform var(--tr), border-color var(--tr), box-shadow var(--tr);
+}
+
+.project-shot img:hover {
+  transform: translateY(-2px);
+  border-color: var(--a);
+  box-shadow: 0 10px 25px -5px var(--glow);
+}
+
+.project-shot-cap {
+  margin-top: 6px;
+  font-size: .76rem;
+  color: var(--tm);
+  opacity: .8;
+  line-height: 1.45;
+}
+
+.project-shot-btn {
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--a);
+  cursor: pointer;
+  transition: color var(--tr), transform var(--tr);
+}
+
+.project-shot-btn:hover {
+  color: var(--ah);
+  transform: translateX(2px);
+}
+
+.project-shot-btn .btn-icon {
+  margin: 0;
+  stroke-width: 2px;
+}
+
