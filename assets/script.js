@@ -118,6 +118,7 @@ document.addEventListener('keydown', function(e) {
     closeModal();
     closeDrawer();
     closeResModal();
+    closeScreenshotModal();
   }
 });
 
@@ -179,3 +180,43 @@ if (window.innerWidth > 768) {
 
 function openResModal() { document.getElementById('resModal').classList.add('open'); }
 function closeResModal() { document.getElementById('resModal').classList.remove('open'); }
+
+function openScreenshot(src, title, subtitle) {
+  var modal = document.getElementById('screenshotModal');
+  var modalTitle = document.getElementById('screenshotModalTitle');
+  var modalSub = document.getElementById('screenshotModalSub');
+  var modalImg = document.getElementById('screenshotModalImg');
+  var gallery = document.getElementById('screenshotGallery');
+  
+  if (modal && modalTitle && modalSub && modalImg && gallery) {
+    modalTitle.textContent = title;
+    modalSub.textContent = subtitle;
+    modalImg.src = src;
+    modalImg.style.display = 'block';
+    gallery.style.display = 'none';
+    modal.classList.add('open');
+  }
+}
+
+function openExcelGallery() {
+  var modal = document.getElementById('screenshotModal');
+  var modalTitle = document.getElementById('screenshotModalTitle');
+  var modalSub = document.getElementById('screenshotModalSub');
+  var modalImg = document.getElementById('screenshotModalImg');
+  var gallery = document.getElementById('screenshotGallery');
+  
+  if (modal && modalTitle && modalSub && modalImg && gallery) {
+    modalTitle.textContent = 'Excel Automation Suite';
+    modalSub.textContent = 'Screenshots showing the custom ribbon menu and the data processing results';
+    modalImg.style.display = 'none';
+    gallery.style.display = 'flex';
+    modal.classList.add('open');
+  }
+}
+
+function closeScreenshotModal() {
+  var modal = document.getElementById('screenshotModal');
+  if (modal) {
+    modal.classList.remove('open');
+  }
+}

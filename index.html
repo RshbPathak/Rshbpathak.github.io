@@ -76,6 +76,35 @@
   </div>
 </div>
 
+<!-- SCREENSHOT MODAL -->
+<div id="screenshotModal" class="modal-overlay" onclick="if(event.target===this)closeScreenshotModal()">
+  <div class="modal-box screenshot-modal-box">
+    <button class="modal-close" onclick="closeScreenshotModal()" aria-label="Close modal">&#10005;</button>
+    <div class="modal-title" id="screenshotModalTitle">App Screenshot</div>
+    <div class="modal-subtitle" id="screenshotModalSub"></div>
+    <div class="screenshot-content-wrapper">
+      <img id="screenshotModalImg" src="" alt="App Screenshot" class="screenshot-img">
+      
+      <div id="screenshotGallery" class="screenshot-gallery">
+        <div class="gallery-item">
+          <div class="gallery-label">Custom Excel Ribbon Menu (Rishabh Add-In)</div>
+          <img src="Images/Ribbon Vba.png" alt="Rishabh Add-In Excel Ribbon" class="screenshot-img">
+        </div>
+        <div class="gallery-item-grid">
+          <div class="gallery-item">
+            <div class="gallery-label">Before: Raw Lot File (Unique IDs Only)</div>
+            <img src="Images/excel-before.png" alt="Raw Excel ID List" class="screenshot-img">
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-label">After: Matched, Formatted &amp; Verified Sheet</div>
+            <img src="Images/excel-after.png" alt="Processed Excel Data" class="screenshot-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- NAV -->
 <nav>
   <div class="nav-in">
@@ -490,6 +519,10 @@
   <div class="dheader-card">
     <div class="dheader-title-row">
       <h1 class="dtitle">Device Search App</h1>
+      <button class="screen-btn" onclick="openScreenshot('Images/device-search.png', 'Device Search App', 'Standalone search interface showing active IMEI / serial lookups')">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+        View Screenshot
+      </button>
       <span class="dcompany-badge">Tool 01 of 05</span>
     </div>
     <div class="dmeta-tags">
@@ -572,6 +605,10 @@
   <div class="dheader-card">
     <div class="dheader-title-row">
       <h1 class="dtitle">Price Audit &amp; Reconcile App</h1>
+      <button class="screen-btn" onclick="openScreenshot('Images/price-reconciler.png', 'Price Audit &amp; Reconcile App', 'Reconciliation dashboard showing matched / unmatched inventory metrics')">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+        View Screenshot
+      </button>
       <span class="dcompany-badge">Tool 02 of 05</span>
     </div>
     <div class="dmeta-tags">
@@ -729,6 +766,10 @@
   <div class="dheader-card">
     <div class="dheader-title-row">
       <h1 class="dtitle">Excel Automation Suite</h1>
+      <button class="screen-btn" onclick="openExcelGallery()">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+        View Screenshots
+      </button>
       <span class="dcompany-badge">Tool 04 of 05</span>
     </div>
     <div class="dmeta-tags">
@@ -815,6 +856,10 @@
   <div class="dheader-card">
     <div class="dheader-title-row">
       <h1 class="dtitle">Rate Comparison Tool</h1>
+      <button class="screen-btn" onclick="openScreenshot('Images/ratecard-analyser.png', 'Rate Comparison Tool', 'Ratecard Analyser interface identifying pricing changes per grade')">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+        View Screenshot
+      </button>
       <span class="dcompany-badge">Tool 05 of 05</span>
     </div>
     <div class="dmeta-tags">
