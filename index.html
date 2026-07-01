@@ -9,11 +9,17 @@
 <meta property="og:url" content="https://rshbpathak.github.io/">
 <meta property="og:title" content="Rishabh Pathak &#8212; MIS Executive">
 <meta property="og:description" content="Portfolio of Rishabh Pathak, an MIS Executive with 3+ years of experience in data operations, inventory reconciliation, and process automation using Excel, VBA, Power Query, and Python.">
+<meta property="og:image" content="https://rshbpathak.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+
 <!-- Twitter -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://rshbpathak.github.io/">
 <meta name="twitter:title" content="Rishabh Pathak &#8212; MIS Executive">
 <meta name="twitter:description" content="Portfolio of Rishabh Pathak, an MIS Executive with 3+ years of experience in data operations, inventory reconciliation, and process automation using Excel, VBA, Power Query, and Python.">
+<meta name="twitter:image" content="https://rshbpathak.github.io/og-image.png">
 <title>Rishabh Pathak &#8212; MIS Executive</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23F97316'/><text x='50' y='65' font-family='sans-serif' font-size='48' font-weight='bold' fill='white' text-anchor='middle'>RP</text></svg>">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
@@ -465,9 +471,8 @@
       <div class="lbl"><span class="lbl-dot"></span>Education &amp; Certifications</div>
       <h2 class="sh">Academic background</h2>
     </div>
-    <br>
     <div class="edugrid">
-      <div class="edu fi"><div class="eduem">&#127891;</div><div><div class="edudeg">Bachelor of Commerce (B.Com)</div><div class="eduinst">Delhi University &#8212; School of Open Learning</div></div></div>
+      <div class="edu fi"><div class="eduem">&#127891;</div><div><div class="edudeg">Bachelor of Commerce (B.Com)</div><div class="eduinst">Delhi University</div></div></div>
       <div class="edu fi"><div class="eduem">&#127979;</div><div><div class="edudeg">12th &amp; 10th &#8212; CBSE</div><div class="eduinst">C.R. Saini Public Senior Secondary School, Delhi</div></div></div>
       <div class="edu fi"><div class="eduem">&#127942;</div><div><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase%20Corporate/XiuvjcwqWRqH9oy38_JPMorgan%20Chase%20&%20Co._mtC5Sop6nKkBrdRJf_1721737043450_completion_certificate.pdf" target="_blank" rel="noopener" style="color:inherit;text-decoration:none"><div class="edudeg" style="color:var(--a);cursor:pointer">Excel Skills Job Simulation ↗</div></a><div class="eduinst">JPMorgan Chase &amp; Co. &#8212; via Forage</div><div class="eduyear">Certified</div></div></div>
     </div>
@@ -482,12 +487,42 @@
 <div id="pg-device-search" class="pg dpg"><section><div class="wrap">
   <button class="backbtn" onclick="showPg('pg-overview')">&#8592; Back to Overview</button>
   <div class="dcrumb"><a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a><span class="sep">&#8250;</span><a href="javascript:void(0)" class="clink" onclick="navTo('s-tools');showPg('pg-overview')">Tools</a><span class="sep">&#8250;</span><span class="cur">Device Search App</span></div>
-  <div class="lbl">Tool Detail &#8212; 01 of 05</div>
-  <div class="dtitle">Device Search App</div>
-  <div class="dsub">Windows desktop search utility with a Python interface and high-speed Rust parsing engine &#8212; searches multiple years of warehouse data in under 2 seconds.</div>
+  <div class="dheader-card">
+    <div class="dheader-title-row">
+      <h1 class="dtitle">Device Search App</h1>
+      <span class="dcompany-badge">Tool 01 of 05</span>
+    </div>
+    <div class="dmeta-tags">
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        Desktop Utility
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        Speed: &lt; 2s
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        Active Use
+      </div>
+    </div>
+  </div>
+
   <div class="pshero">
-    <div class="pscol prob"><div class="pslbl">&#10060; The Problem</div><p class="psbody">Purchase records were stored across multiple large Excel files &#8212; one per year, each with thousands of device entries. Finding a single device meant manually opening the right year's file, scrolling through sheets, and matching entries one by one. As data grew over years, this became noticeably slower. Urgent lookups during a sale or reconciliation wasted time every single day.</p></div>
-    <div class="pscol sol"><div class="pslbl">&#9989; The Solution</div><p class="psbody">A standalone Windows desktop utility with a Python interface and Rust parsing engine that loads all data into a local database and returns results in under 2 seconds. Also integrated into Excel via VBA: when a sales sheet is prepared, the macro queries the database for every device, confirms inventory existence, and flags any price mismatch in red &#8212; without opening the app manually.</p></div>
+    <div class="pscol prob">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        The Problem
+      </div>
+      <p class="psbody">Purchase records were stored across multiple large Excel files &#8212; one per year, each with thousands of device entries. Finding a single device meant manually opening the right year's file, scrolling through sheets, and matching entries one by one. As data grew over years, this became noticeably slower. Urgent lookups during a sale or reconciliation wasted time every single day.</p>
+    </div>
+    <div class="pscol sol">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        The Solution
+      </div>
+      <p class="psbody">A standalone Windows desktop utility with a Python interface and Rust parsing engine that loads all data into a local database and returns results in under 2 seconds. Also integrated into Excel via VBA: when a sales sheet is prepared, the macro queries the database for every device, confirms inventory existence, and flags any price mismatch in red &#8212; without opening the app manually.</p>
+    </div>
   </div>
   <div class="dc"><div class="dct">What the App Does</div><ul class="dl">
     <li>Searches all years of purchase data simultaneously &#8212; results in under 2 seconds on any record count</li>
@@ -515,6 +550,18 @@
       <li>GUI built with CustomTkinter; SQLite for settings persistence between sessions</li>
     </ul></div>
   </div>
+  
+  <div class="dpage-nav">
+    <button class="dnav-btn" onclick="showPg('pg-rate')">&larr; Prev</button>
+    <div class="dnav-dots">
+      <span class="dnav-dot active" onclick="showPg('pg-device-search')">1</span>
+      <span class="dnav-dot" onclick="showPg('pg-price-auditor')">2</span>
+      <span class="dnav-dot" onclick="showPg('pg-gmail')">3</span>
+      <span class="dnav-dot" onclick="showPg('pg-excel')">4</span>
+      <span class="dnav-dot" onclick="showPg('pg-rate')">5</span>
+    </div>
+    <button class="dnav-btn primary" onclick="showPg('pg-price-auditor')">Next &rarr;</button>
+  </div>
 </div></section></div>
 
 
@@ -522,12 +569,42 @@
 <div id="pg-price-auditor" class="pg dpg"><section><div class="wrap">
   <button class="backbtn" onclick="showPg('pg-overview')">&#8592; Back to Overview</button>
   <div class="dcrumb"><a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a><span class="sep">&#8250;</span><a href="javascript:void(0)" class="clink" onclick="navTo('s-tools');showPg('pg-overview')">Tools</a><span class="sep">&#8250;</span><span class="cur">Price Audit &amp; Reconcile App</span></div>
-  <div class="lbl">Tool Detail &#8212; 02 of 05</div>
-  <div class="dtitle">Price Audit &amp; Reconcile App</div>
-  <div class="dsub">Desktop application with three built-in tools for stock reconciliation and price verification &#8212; built because manual comparison before payment was too slow and too unreliable.</div>
+  <div class="dheader-card">
+    <div class="dheader-title-row">
+      <h1 class="dtitle">Price Audit &amp; Reconcile App</h1>
+      <span class="dcompany-badge">Tool 02 of 05</span>
+    </div>
+    <div class="dmeta-tags">
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        Desktop Utility
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        3-in-1 Suite
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        Risk Mitigation
+      </div>
+    </div>
+  </div>
+
   <div class="pshero">
-    <div class="pscol prob"><div class="pslbl">&#10060; The Problem</div><p class="psbody">There was no structured way to confirm a supplier's delivery matched the original order in quantity, condition grade, and price before payment. Short deliveries, condition changes, and billing errors could only be caught through slow manual Excel comparison. Rate list updates were equally hard to evaluate &#8212; manually comparing two large files across hundreds of model-condition combinations was unreliable and time-consuming.</p></div>
-    <div class="pscol sol"><div class="pslbl">&#9989; The Solution</div><p class="psbody">A three-in-one desktop app: the Reconcile tool compares what was ordered against what arrived and flags every difference; the Ratecard Analyser shows exactly what changed between an old and new price list; the Audit tool scans a single file for internal pricing inconsistencies. All three run in seconds via drag-and-drop.</p></div>
+    <div class="pscol prob">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        The Problem
+      </div>
+      <p class="psbody">There was no structured way to confirm a supplier's delivery matched the original order in quantity, condition grade, and price before payment. Short deliveries, condition changes, and billing errors could only be caught through slow manual Excel comparison. Rate list updates were equally hard to evaluate &#8212; manually comparing two large files across hundreds of model-condition combinations was unreliable and time-consuming.</p>
+    </div>
+    <div class="pscol sol">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        The Solution
+      </div>
+      <p class="psbody">A three-in-one desktop app: the Reconcile tool compares what was ordered against what arrived and flags every difference; the Ratecard Analyser shows exactly what changed between an old and new price list; the Audit tool scans a single file for internal pricing inconsistencies. All three run in seconds via drag-and-drop.</p>
+    </div>
   </div>
   <div class="d2">
     <div class="dc"><div class="dct">Tool 1 &#8212; Reconcile Files</div><ul class="dl">
@@ -556,6 +633,18 @@
       <li>Vite frontend communicates via IPC triggers; custom Rust excel engine</li>
     </ul></div>
   </div>
+  
+  <div class="dpage-nav">
+    <button class="dnav-btn" onclick="showPg('pg-device-search')">&larr; Prev</button>
+    <div class="dnav-dots">
+      <span class="dnav-dot" onclick="showPg('pg-device-search')">1</span>
+      <span class="dnav-dot active" onclick="showPg('pg-price-auditor')">2</span>
+      <span class="dnav-dot" onclick="showPg('pg-gmail')">3</span>
+      <span class="dnav-dot" onclick="showPg('pg-excel')">4</span>
+      <span class="dnav-dot" onclick="showPg('pg-rate')">5</span>
+    </div>
+    <button class="dnav-btn primary" onclick="showPg('pg-gmail')">Next &rarr;</button>
+  </div>
 </div></section></div>
 
 
@@ -563,12 +652,42 @@
 <div id="pg-gmail" class="pg dpg"><section><div class="wrap">
   <button class="backbtn" onclick="showPg('pg-overview')">&#8592; Back to Overview</button>
   <div class="dcrumb"><a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a><span class="sep">&#8250;</span><a href="javascript:void(0)" class="clink" onclick="navTo('s-tools');showPg('pg-overview')">Tools</a><span class="sep">&#8250;</span><span class="cur">Gmail File Collector</span></div>
-  <div class="lbl">Tool Detail &#8212; 03 of 05</div>
-  <div class="dtitle">Gmail File Collector</div>
-  <div class="dsub">Automated script replacing 30+ minutes of daily manual file downloading &#8212; processes 50&#8211;100 supplier email attachments every day with zero manual steps.</div>
+  <div class="dheader-card">
+    <div class="dheader-title-row">
+      <h1 class="dtitle">Gmail File Collector</h1>
+      <span class="dcompany-badge">Tool 03 of 05</span>
+    </div>
+    <div class="dmeta-tags">
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        Cloud Automation
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        50&#8211;100 files/day
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        30m Saved Daily
+      </div>
+    </div>
+  </div>
+
   <div class="pshero">
-    <div class="pscol prob"><div class="pslbl">&#10060; The Problem</div><p class="psbody">The business receives 50&#8211;100 supplier file attachments on Gmail every day &#8212; order files, invoice files, and stock detail files spread across dozens of email threads. Previously, someone had to open Gmail, manually download each attachment, decide which folder it belonged to, and move it there. This was 30+ minutes of daily work adding zero value and regularly leading to files saved in the wrong location or downloaded twice.</p></div>
-    <div class="pscol sol"><div class="pslbl">&#9989; The Solution</div><p class="psbody">A Google Apps Script that runs on demand. It scans Gmail for all emails with the designated label, downloads only Excel attachments, reads the email subject line to detect the warehouse code, creates the correct subfolder automatically, and saves each file in the right location &#8212; skipping anything already downloaded. A separate cleanup script removes processed files once used.</p></div>
+    <div class="pscol prob">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        The Problem
+      </div>
+      <p class="psbody">The business receives 50&#8211;100 supplier file attachments on Gmail every day &#8212; order files, invoice files, and stock detail files spread across dozens of email threads. Previously, someone had to open Gmail, manually download each attachment, decide which folder it belonged to, and move it there. This was 30+ minutes of daily work adding zero value and regularly leading to files saved in the wrong location or downloaded twice.</p>
+    </div>
+    <div class="pscol sol">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        The Solution
+      </div>
+      <p class="psbody">A Google Apps Script that runs on demand. It scans Gmail for all emails with the designated label, downloads only Excel attachments, reads the email subject line to detect the warehouse code, creates the correct subfolder automatically, and saves each file in the right location &#8212; skipping anything already downloaded. A separate cleanup script removes processed files once used.</p>
+    </div>
   </div>
   <div class="d2">
     <div class="dc"><div class="dct">What It Does</div><ul class="dl">
@@ -588,6 +707,18 @@
       <li>Subject line parsing handles multiple warehouse code formats automatically</li>
     </ul></div>
   </div>
+  
+  <div class="dpage-nav">
+    <button class="dnav-btn" onclick="showPg('pg-price-auditor')">&larr; Prev</button>
+    <div class="dnav-dots">
+      <span class="dnav-dot" onclick="showPg('pg-device-search')">1</span>
+      <span class="dnav-dot" onclick="showPg('pg-price-auditor')">2</span>
+      <span class="dnav-dot active" onclick="showPg('pg-gmail')">3</span>
+      <span class="dnav-dot" onclick="showPg('pg-excel')">4</span>
+      <span class="dnav-dot" onclick="showPg('pg-rate')">5</span>
+    </div>
+    <button class="dnav-btn primary" onclick="showPg('pg-excel')">Next &rarr;</button>
+  </div>
 </div></section></div>
 
 
@@ -595,12 +726,42 @@
 <div id="pg-excel" class="pg dpg"><section><div class="wrap">
   <button class="backbtn" onclick="showPg('pg-overview')">&#8592; Back to Overview</button>
   <div class="dcrumb"><a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a><span class="sep">&#8250;</span><a href="javascript:void(0)" class="clink" onclick="navTo('s-tools');showPg('pg-overview')">Tools</a><span class="sep">&#8250;</span><span class="cur">Excel Automation Suite</span></div>
-  <div class="lbl">Tool Detail &#8212; 04 of 05</div>
-  <div class="dtitle">Excel Automation Suite &#8212; 24 Modules</div>
-  <div class="dsub">Custom Excel application built from 24 VBA modules with a purpose-built ribbon interface, including an Excel-to-database integration bridge for high-volume data processing.</div>
+  <div class="dheader-card">
+    <div class="dheader-title-row">
+      <h1 class="dtitle">Excel Automation Suite</h1>
+      <span class="dcompany-badge">Tool 04 of 05</span>
+    </div>
+    <div class="dmeta-tags">
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><circle cx="10" cy="9" r="1"></circle></svg>
+        VBA &amp; Ribbon
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        24 VBA Modules
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        Replaced 2 FTEs
+      </div>
+    </div>
+  </div>
+
   <div class="pshero">
-    <div class="pscol prob"><div class="pslbl">&#10060; The Problem</div><p class="psbody">Every daily task &#8212; batch data entry, report formatting, invoice creation, file sharing, and payment verification &#8212; was done manually. Output was inconsistent, the process was slow and error-prone, and collectively this was the equivalent of two full-time people's daily workload. Large inventory files also caused crashes when opened directly in Excel due to volume.</p></div>
-    <div class="pscol sol"><div class="pslbl">&#9989; The Solution</div><p class="psbody">A 24-tool Excel application with a custom ribbon &#8212; every daily task handled with a single click. Batch processing, pivot reports, invoice generation, Telegram file sharing, HTML exports, and payment verification all in one place. An Excel-to-database integration layer handles high-volume files with batch inserts of 2,500 records, eliminating crashes and manual handling.</p></div>
+    <div class="pscol prob">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        The Problem
+      </div>
+      <p class="psbody">Every daily task &#8212; batch data entry, report formatting, invoice creation, file sharing, and payment verification &#8212; was done manually. Output was inconsistent, the process was slow and error-prone, and collectively this was the equivalent of two full-time people's daily workload. Large inventory files also caused crashes when opened directly in Excel due to volume.</p>
+    </div>
+    <div class="pscol sol">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        The Solution
+      </div>
+      <p class="psbody">A 24-tool Excel application with a custom ribbon &#8212; every daily task handled with a single click. Batch processing, pivot reports, invoice generation, Telegram file sharing, HTML exports, and payment verification all in one place. An Excel-to-database integration layer handles high-volume files with batch inserts of 2,500 records, eliminating crashes and manual handling.</p>
+    </div>
   </div>
   <div class="d2">
     <div class="dc"><div class="dct">Data Pipeline &amp; Batch Processing</div><ul class="dl">
@@ -632,6 +793,18 @@
       <li>20+ utility functions: delete sheets, freeze formulas, sort tabs, convert formulas to values, and more</li>
     </ul></div>
   </div>
+  
+  <div class="dpage-nav">
+    <button class="dnav-btn" onclick="showPg('pg-gmail')">&larr; Prev</button>
+    <div class="dnav-dots">
+      <span class="dnav-dot" onclick="showPg('pg-device-search')">1</span>
+      <span class="dnav-dot" onclick="showPg('pg-price-auditor')">2</span>
+      <span class="dnav-dot" onclick="showPg('pg-gmail')">3</span>
+      <span class="dnav-dot active" onclick="showPg('pg-excel')">4</span>
+      <span class="dnav-dot" onclick="showPg('pg-rate')">5</span>
+    </div>
+    <button class="dnav-btn primary" onclick="showPg('pg-rate')">Next &rarr;</button>
+  </div>
 </div></section></div>
 
 
@@ -639,12 +812,42 @@
 <div id="pg-rate" class="pg dpg"><section><div class="wrap">
   <button class="backbtn" onclick="showPg('pg-overview')">&#8592; Back to Overview</button>
   <div class="dcrumb"><a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a><span class="sep">&#8250;</span><a href="javascript:void(0)" class="clink" onclick="navTo('s-tools');showPg('pg-overview')">Tools</a><span class="sep">&#8250;</span><span class="cur">Rate Comparison Tool</span></div>
-  <div class="lbl">Tool Detail &#8212; 05 of 05</div>
-  <div class="dtitle">Rate Comparison Tool</div>
-  <div class="dsub">Python-based tool comparing old and new supplier price lists and highlighting every change &#8212; built to prevent accepting updated rates without knowing what actually shifted.</div>
+  <div class="dheader-card">
+    <div class="dheader-title-row">
+      <h1 class="dtitle">Rate Comparison Tool</h1>
+      <span class="dcompany-badge">Tool 05 of 05</span>
+    </div>
+    <div class="dmeta-tags">
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-.81H13.6a2.78 2.78 0 0 0-1.94.81L2.1 16.48a3.48 3.48 0 0 0 0 4.92l1.62 1.62a3.48 3.48 0 0 0 4.92 0L18.7 13a2.78 2.78 0 0 0 .81-1.94V6.42z"></path><circle cx="16" cy="9" r="1"></circle></svg>
+        Python Script
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        Price Auditing
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        Profit Safeguard
+      </div>
+    </div>
+  </div>
+
   <div class="pshero">
-    <div class="pscol prob"><div class="pslbl">&#10060; The Problem</div><p class="psbody">Suppliers periodically send updated price lists. Without a structured comparison, it was very difficult to know which rates changed, which combinations were added or removed, and whether new pricing was acceptable. Manually comparing two large Excel files row by row across hundreds of model-condition combinations was slow and unreliable. Rate changes were regularly missed, directly affecting purchase profitability.</p></div>
-    <div class="pscol sol"><div class="pslbl">&#9989; The Solution</div><p class="psbody">Load the old and new price list files &#8212; the comparison runs immediately. Every change shown per model and condition grade: previous rate, new rate, exact difference. Newly added combinations and removed items flagged separately. Full result exported to a clean Excel report. No rate change goes unnoticed before the next purchase cycle.</p></div>
+    <div class="pscol prob">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        The Problem
+      </div>
+      <p class="psbody">Suppliers periodically send updated price lists. Without a structured comparison, it was very difficult to know which rates changed, which combinations were added or removed, and whether new pricing was acceptable. Manually comparing two large Excel files row by row across hundreds of model-condition combinations was slow and unreliable. Rate changes were regularly missed, directly affecting purchase profitability.</p>
+    </div>
+    <div class="pscol sol">
+      <div class="pslbl">
+        <svg class="pslbl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        The Solution
+      </div>
+      <p class="psbody">Load the old and new price list files &#8212; the comparison runs immediately. Every change shown per model and condition grade: previous rate, new rate, exact difference. Newly added combinations and removed items flagged separately. Full result exported to a clean Excel report. No rate change goes unnoticed before the next purchase cycle.</p>
+    </div>
   </div>
   <div class="dc"><div class="dct">What It Does <span class="badge">AI-assisted</span></div><ul class="dl">
     <li>Load old and new price list files &#8212; comparison runs automatically, no manual setup</li>
@@ -660,16 +863,58 @@
     <li>All built with AI assistance in VS Code, driven by clearly documented business requirements</li>
     <li>Compiled to standalone executables where needed &#8212; no Python installation required on business machines</li>
   </ul></div>
+  
+  <div class="dpage-nav">
+    <button class="dnav-btn" onclick="showPg('pg-excel')">&larr; Prev</button>
+    <div class="dnav-dots">
+      <span class="dnav-dot" onclick="showPg('pg-device-search')">1</span>
+      <span class="dnav-dot" onclick="showPg('pg-price-auditor')">2</span>
+      <span class="dnav-dot" onclick="showPg('pg-gmail')">3</span>
+      <span class="dnav-dot" onclick="showPg('pg-excel')">4</span>
+      <span class="dnav-dot active" onclick="showPg('pg-rate')">5</span>
+    </div>
+    <button class="dnav-btn primary" onclick="showPg('pg-device-search')">Next &rarr;</button>
+  </div>
 </div></section></div>
 
 
 <!-- PAGE: MOBILE HUB — corrected payment sequence -->
 <div id="pg-mobile-hub" class="pg dpg"><section><div class="wrap">
   <button class="backbtn" onclick="showPg('pg-overview')">&#8592; Back to Overview</button>
-  <div class="dcrumb"><a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a><span class="sep">&#8250;</span><a href="javascript:void(0)" class="clink" onclick="navTo('s-exp');showPg('pg-overview')">Experience</a><span class="sep">&#8250;</span><span class="cur">Mobile Hub</span></div>
-  <div class="lbl">Experience Detail</div>
-  <div class="dtitle">MIS Executive &#8212; Mobile Hub</div>
-  <div class="dsub">Oct 2022 &#8211; Present &#183; Udyog Nagar, New Delhi &#183; 3+ years &#183; Sole data and automation person on a 4-person team</div>
+  
+  <div class="dcrumb">
+    <a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a>
+    <span class="sep">&#8250;</span>
+    <a href="javascript:void(0)" class="clink" onclick="navTo('s-exp');showPg('pg-overview')">Experience</a>
+    <span class="sep">&#8250;</span>
+    <span class="cur">Mobile Hub</span>
+  </div>
+
+  <div class="dheader-card">
+    <div class="dheader-title-row">
+      <h1 class="dtitle">MIS Executive</h1>
+      <span class="dcompany-badge">Mobile Hub</span>
+    </div>
+    <div class="dmeta-tags">
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        Oct 2022 &ndash; Present
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        Udyog Nagar, New Delhi
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        3+ Years
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        Sole automation dev (4-man team)
+      </div>
+    </div>
+  </div>
+
   <div class="dc"><div class="dct">Business Context</div><ul class="dl">
     <li>Mobile Hub purchases second-hand mobile phones in bulk lots from liquidation platforms. Each lot contains between 93 and 1,000+ phones, condition-graded from best (S1) to lowest (S5).</li>
     <li>Brands include Apple, Samsung, Google, OnePlus, Xiaomi, Motorola, and others. Monthly stock value ranges from &#8377;5 to &#8377;20 crore.</li>
@@ -677,16 +922,20 @@
     <li>Every purchase involves supplier pricing files, order confirmation, payment, post-payment file receipt, delivery verification, and inventory recording &#8212; all through systems I built.</li>
     <li>I am the only person handling data and automation on the team. A separate accountant manages Tally and rechecks financial records independently.</li>
   </ul></div>
-  <div id="mobile-hub-workflow" class="lbl" style="margin-top:26px;margin-bottom:13px">Full Daily Workflow &#8212; 8 Steps</div>
+
+  <div class="sec-hdr" id="mobile-hub-workflow" style="margin-top:32px; margin-bottom:16px;">
+    <div class="lbl"><span class="lbl-dot"></span>Full Daily Workflow &mdash; 8 Steps</div>
+  </div>
+
   <div class="fpipe">
     <div class="fpstep" data-step="01"><div class="fptitle">Receive Supplier Lot File</div><div class="fpdesc">A pricing reference file arrives for each purchase lot &#8212; contains product codes, brand, model, condition grade, base price, agreed pricing structure (flat rates, percentage discounts, or adjusted margins), and the final agreed rate per unit.</div></div>
     <div class="fpstep" data-step="02"><div class="fptitle">Gmail Auto-Download<span style="font-size:.75rem;color:var(--tm);font-weight:400;margin-left:6px">(50&#8211;100 Order Files)</span></div><div class="fpdesc">The Gmail automation script downloads all supplier order file attachments for the day &#8212; each file contains product codes, product title, brand, grade, base price, and final value. Sorted by file type and warehouse automatically. Duplicates skipped.</div></div>
     <div class="fpstep" data-step="03"><div class="fptitle">Rate Calculation &amp; Power Query Processing</div><div class="fpdesc">Agreed pricing formulas (accommodating flat rates, percentage discounts, or adjusted margins) are applied to calculate the final net purchase rate per unit. Power Query then merges all order files, cleans the data, and produces a master workbook: one sheet per lot, a merged data sheet, and a summary showing total quantity, total amount, condition breakdown, and brand split. Example: one run covers 11 lots and 1,021 phones.</div></div>
     <div class="fpstep" data-step="04"><div class="fptitle">Payment Released</div><div class="fpdesc">Payment is confirmed and made to the supplier based on the agreed order rate and total. This happens before receiving the detailed invoice and stock files &#8212; the supplier sends those after payment is received on their end.</div></div>
     <div class="fpstep" data-step="05"><div class="fptitle">Receive Invoice and Stock Detail Files</div><div class="fpdesc">After payment is received by the supplier, they send invoice files (product code, price, tax breakdown, total per unit) and stock detail files (warehouse serial number, IMEI, brand, model, condition grade). These are auto-downloaded via the same Gmail script.</div></div>
-    <div class="fpstep" data-step="06"><div class="fptitle">3-Way Stock Reconciliation</div><div class="fpdesc">Compare three data sources: what was originally ordered, what actually arrived, and what was charged. Short-delivered units, condition grade changes, and pricing differences all identified. Any discrepancy is documented and escalated for correction against the payment already made.</div></div>
+    <div class="fpstep" data-step="06"><div class="fptitle">3-Way Stock Reconciliation</div><div class="fpdesc">A three-way comparison is run across purchase records, delivery data, and invoice pricing. Short-delivered units, condition grade changes, and pricing differences are all identified, with any discrepancy documented and escalated for correction against the payment already made.</div></div>
     <div class="fpstep" data-step="07"><div class="fptitle">Update Master Yearly Database</div><div class="fpdesc">Every device from the batch is entered into the master database &#8212; IMEI, warehouse serial number, condition grade, purchase amount, warehouse location (Noida or Bilaspur), and batch reference. Single source of truth for all inventory across the business.</div></div>
-    <div class="fpstep" data-step="08"><div class="fptitle">Post-Payment Delivery Confirmation</div><div class="fpdesc">A final check comparing the payment made against the confirmed delivery and invoice data. The Excel-to-database integration queries every device in the sales batch, confirms each unit is recorded correctly in inventory, and flags any discrepancy between what was paid and what was received. Tracked and resolved if any difference is found.</div></div>
+    <div class="fpstep" data-step="08"><div class="fptitle">Post-Payment Delivery Confirmation</div><div class="fpdesc">A final check comparing the payment made against the confirmed delivery and invoice data. The Excel-to-database integration queries every device in the sales batch, confirms each unit is recorded correctly in inventory, and flags any discrepancy between what was paid and what was received. Any differences are tracked and resolved immediately.</div></div>
   </div>
   <br>
   <div class="d2">
@@ -700,10 +949,15 @@
     <div class="dc"><div class="dct">Other Key Contributions</div><ul class="dl">
       <li>Wrote full business process documentation covering the entire data workflow &#8212; used as operational reference and context for AI-assisted tool development</li>
       <li>Reduced stock selection time by 1 hour using Excel pivot tables, slicers, and cross-referenced formulas</li>
-      <li>Built scan sheets and sales invoices that auto-populate from inventory &#8212; zero manual entry at sale time</li>
-      <li>Caught multiple post-payment delivery discrepancies over time &#8212; traced each back to source, escalated, and got corrections confirmed against payment records</li>
+      <li>Built scan sheets and sales invoices that auto-populate from inventory &#8212; zero manual entry at the time of sale</li>
+      <li>Caught multiple post-payment delivery discrepancies over time &#8212; traced each back to its source, escalated, and got corrections confirmed against payment records</li>
       <li>Created SOPs covering reconciliation logic, file naming rules, workflow steps, and data standards</li>
     </ul></div>
+  </div>
+  
+  <div class="dpage-nav">
+    <button class="dnav-btn" onclick="showPg('pg-overview'); navTo('s-exp')">&larr; Back to Experience</button>
+    <button class="dnav-btn primary" onclick="showPg('pg-sahil')">Sahil Miglani &amp; Associates &rarr;</button>
   </div>
 </div></section></div>
 
@@ -711,13 +965,43 @@
 <!-- PAGE: SAHIL MIGLANI -->
 <div id="pg-sahil" class="pg dpg"><section><div class="wrap">
   <button class="backbtn" onclick="showPg('pg-overview')">&#8592; Back to Overview</button>
-  <div class="dcrumb"><a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a><span class="sep">&#8250;</span><a href="javascript:void(0)" class="clink" onclick="navTo('s-exp');showPg('pg-overview')">Experience</a><span class="sep">&#8250;</span><span class="cur">Sahil Miglani &amp; Associates</span></div>
-  <div class="lbl">Experience Detail</div>
-  <div class="dtitle">Account Assistant &#8212; Sahil Miglani &amp; Associates</div>
-  <div class="dsub">Jan 2022 &#8211; Sep 2022 &#183; Karampura, Delhi &#183; Chartered Accountant Firm &#183; 9 months</div>
+  
+  <div class="dcrumb">
+    <a href="javascript:void(0)" class="clink" onclick="showPg('pg-overview')">Overview</a>
+    <span class="sep">&#8250;</span>
+    <a href="javascript:void(0)" class="clink" onclick="navTo('s-exp');showPg('pg-overview')">Experience</a>
+    <span class="sep">&#8250;</span>
+    <span class="cur">Sahil Miglani</span>
+  </div>
+
+  <div class="dheader-card">
+    <div class="dheader-title-row">
+      <h1 class="dtitle">Account Assistant</h1>
+      <span class="dcompany-badge">Sahil Miglani &amp; Associates</span>
+    </div>
+    <div class="dmeta-tags">
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        Jan 2022 &ndash; Sep 2022
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        Karampura, Delhi
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        Chartered Accountant Firm
+      </div>
+      <div class="dmeta-tag">
+        <svg class="dtag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        9 Months
+      </div>
+    </div>
+  </div>
+
   <div class="dc"><div class="dct">What I Did</div><ul class="dl">
     <li>Maintained complete daily accounting records in Tally Prime for 100+ vendor accounts &#8212; strict accuracy, zero filing backlogs throughout the entire 9-month tenure.</li>
-    <li>Filed monthly and quarterly GST returns on schedule. Standardised the filing preparation templates internally &#8212; reduced time spent on preparation each cycle.</li>
+    <li>Filed monthly and quarterly GST returns on schedule. Standardised the filing preparation templates internally, reducing the time spent on preparation each cycle.</li>
     <li>Generated E-way Bills and E-Invoices in compliance with GST regulations for every applicable transaction &#8212; consistent, on-time compliance record throughout.</li>
     <li>Coordinated and processed payments for 100+ vendors &#8212; tracked due dates, confirmed amounts against invoices, maintained complete documentation for every transaction.</li>
     <li>Reconciled vendor payment records at month-end and kept all supporting documentation for full audit readiness across the book of accounts.</li>
@@ -728,6 +1012,11 @@
     <li>Most MIS professionals have data skills or accounting knowledge &#8212; not both. Having both means understanding what the numbers represent, not just how to process them.</li>
     <li>Directly relevant for roles involving financial reporting, reconciliation, operations management, or any business with active vendor relationships and compliance requirements.</li>
   </ul></div>
+  
+  <div class="dpage-nav">
+    <button class="dnav-btn primary" onclick="showPg('pg-mobile-hub')">&larr; Mobile Hub (MIS Executive)</button>
+    <button class="dnav-btn" onclick="showPg('pg-overview'); navTo('s-exp')">Back to Experience &rarr;</button>
+  </div>
 </div></section></div>
 
 <script src="assets/script.js"></script>
