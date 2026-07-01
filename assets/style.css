@@ -769,15 +769,26 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: var(--as);
-  border: 1px solid var(--ba);
+  background: rgba(249, 115, 22, 0.1);
+  border: 1.5px solid var(--a);
   border-radius: 100px;
-  padding: 6px 14px;
+  padding: 5px 14px 5px 10px;
   font-family: var(--fm);
-  font-size: .78rem;
+  font-size: .74rem;
   color: var(--a);
   letter-spacing: .08em;
   margin-bottom: 16px;
+  box-shadow:
+    0 0 0 4px rgba(249, 115, 22, 0.08),
+    0 0 22px rgba(249, 115, 22, 0.18),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
+  transition: all var(--tr);
+}
+
+[data-theme="light"] .eyebrow {
+  box-shadow:
+    0 0 0 4px rgba(234, 88, 12, 0.06),
+    0 0 18px rgba(234, 88, 12, 0.12);
 }
 
 .dot {
@@ -785,7 +796,10 @@ section {
   height: 7px;
   background: var(--a);
   border-radius: 50%;
-  animation: pulse 2s infinite;
+  display: inline-block;
+  animation: pulse 1.8s ease-in-out infinite;
+  box-shadow: 0 0 6px var(--a), 0 0 14px rgba(249, 115, 22, 0.5);
+  flex-shrink: 0;
 }
 
 @keyframes pulse {
