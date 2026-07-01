@@ -2404,6 +2404,8 @@ section {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0; /* prevent grid blowout */
+  overflow: hidden;
 }
 
 .pscol.prob {
@@ -2743,7 +2745,7 @@ footer {
 /* PROJECT SCREENSHOT PREVIEW */
 .project-shot {
   margin: 10px 0 16px;
-  max-width: 460px;
+  max-width: min(460px, 100%);
   width: 100%;
 }
 
